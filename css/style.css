@@ -1,0 +1,90 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+header
+{
+    background-color: teal;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /**** fixed menu ****/
+    position: fixed;
+    width: 100%;
+}
+
+div#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#logo
+{
+    width: 200px;
+    /* จัดชิดซ้าย */
+    float: left;
+    color: white;
+    font-size: 24px;
+}
+
+div#menu
+{
+    float: right;
+}
+
+div#menu ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#menu ul li
+{
+    float: left;
+    margin-left: 25px;
+}
+
+div#menu ul li a
+{
+    color: white;
+    font-size: 24px;
+    text-decoration: none; /* ซ่อนเส้นใต้ลิงก์ */
+}
+
+/***** HILIGHT *****/
+section#hilight
+{
+    background: url(../images/food.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+
+/*** CONTENT ***/
+section#content
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.box-content
+{
+    width: 30%;
+    float: left;
+    margin: 16px;
+    text-align: center
+}
+
+.fas
+{
+    color: brown;
+}
